@@ -27,3 +27,19 @@ public class MovieResource {
     }
 
 }
+
+
+//client side service discovery
+//server side service discovery
+//@Bean
+//@Autowire
+//RestTemplate
+//WebClient
+//----
+//Eureka -  Netflix
+//Ribbon
+//Hysterix
+//Zuul
+//Eureka Server
+//Eureka Discovery
+//Hystrix
