@@ -1,4 +1,6 @@
-package package1;
+package classic_api;
+
+import package1.CalculatePrime;
 
 public class PrimeNumberCalculator implements Runnable {
 
@@ -10,11 +12,6 @@ public class PrimeNumberCalculator implements Runnable {
         System.out.println("\n Results");
         System.out.println("\n value of " + n + "th prime: " + number);
     }
-
-    public int getN() {
-        return n;
-    }
-
     public void setN(int n) {
         this.n = n;
     }

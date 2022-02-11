@@ -1,8 +1,9 @@
-package package1;
+package classic_api;
+
 import java.util.Scanner;
-public class PrimeNumberApplication {
+
+public class DeamonExample {
     public static void main(String[] args) {
-        int number;
         while (true) {
             Scanner scanner = new Scanner(System.in);
             System.out.println("\n I can tell you the nth prime number . enter n: ");
@@ -11,12 +12,10 @@ public class PrimeNumberApplication {
             PrimeNumberCalculator r = new PrimeNumberCalculator();
             r.setN(n);
             Thread t = new Thread(r);
+            // set deamon to true
+            t.setDaemon(true);
             t.start();
-//            try {
-//                t.join();
-//            } catch (InterruptedException e) {
-//                e.printStackTrace();
-//            }
         }
+        System.out.println("Ending the application");
     }
 }
