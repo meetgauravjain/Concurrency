@@ -4,7 +4,7 @@ public class Way1 extends Thread {
 
     @Override
     public void run() {
-        System.out.println(Thread.getAllStackTraces());
+        System.out.println(Thread.currentThread());
         System.out.println("I am a child thread");
     }
 
