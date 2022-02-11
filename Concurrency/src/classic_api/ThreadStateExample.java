@@ -30,6 +30,7 @@ public class ThreadStateExample {
             list.add(t);
             t.start();
         }
+        System.out.println("Ending application");
     }
 
     private static void printThreadState(List<Thread> list) {
