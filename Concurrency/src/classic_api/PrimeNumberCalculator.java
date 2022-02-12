@@ -1,7 +1,5 @@
 package classic_api;
 
-import package1.CalculatePrime;
-
 public class PrimeNumberCalculator implements Runnable {
 
     int n;

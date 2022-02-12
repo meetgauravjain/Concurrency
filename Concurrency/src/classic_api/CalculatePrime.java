@@ -1,4 +1,4 @@
-package package1;
+package classic_api;
 
 public class CalculatePrime {
 
