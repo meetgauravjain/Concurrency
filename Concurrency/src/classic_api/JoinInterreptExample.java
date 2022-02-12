@@ -29,6 +29,7 @@ public class JoinInterreptExample {
                 System.out.println("Waiting for all threads to finish..");
                 try {
                     waitForThreads(list);
+                    System.out.println("Done with application total thread executed today were" + list.size());
                 } catch (InterruptedException e) {
                     System.out.println("Got Interrupted while Waiting for all threads to finish..");
                 }
